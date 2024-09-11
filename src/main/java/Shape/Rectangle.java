@@ -8,8 +8,8 @@ public class Rectangle extends Shape {
     // Constructor
     public Rectangle(String color, double width, double height) {
         super(color);
-        setWidth(width);
-        setHeight(height);
+        this.width = width;
+        this.height = height;
     }
 
     // Getters and Setters
@@ -17,29 +17,20 @@ public class Rectangle extends Shape {
         return width;
     }
     public void setWidth(double width) {
-        if (width > 0) {
-            this.width = width;
-        } else {
-            System.out.println("Width must be positive.");
-        }
+        this.width = width;
     }
     public double getHeight() {
         return height;
     }
     public void setHeight(double height) {
-        if (height > 0) {
-            this.height = height;
-        } else {
-            System.out.println("Height must be positive.");
-        }
+        this.height = height;
     }
-
     @Override
     public double area() {
-        return getWidth() * getHeight();
+        return width * height;
     }
     @Override
     public double perimeter() {
-        return 2 * (getWidth() + getHeight());
+        return 2 * (width + height);
     }
 }

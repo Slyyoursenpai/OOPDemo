@@ -11,16 +11,11 @@ public class Main {
 
     public static void main(String[] args) {
         // Create objects
-       // Shape circle = new Circle("Red", 5.0);
-        Circle circle = new Circle("Red", 5.0);
-        Rectangle rectangle = new Rectangle("Yellow", 2,3.0);
+        Shape circle = new Circle("Red", 5.0);
+        Shape rectangle = new Rectangle("Blue", 4.0, 6.0);
 
         // Display details
         printShapeDetails(circle);
         printShapeDetails(rectangle);
-
-        rectangle.setHeight(2);
-        printShapeDetails(rectangle);
-
     }
 }
