@@ -15,6 +15,7 @@ public class Main {
         Shape rectangle = new Rectangle("Blue", 4.0, 6.0);
 
         // Display details
+        //test
         printShapeDetails(circle);
         printShapeDetails(rectangle);
     }
