@@ -19,7 +19,6 @@ public class Main {
         printShapeDetails(circle);
         printShapeDetails(rectangle);
 
-        ///test
         rectangle.setHeight(2);
         printShapeDetails(rectangle);
 
