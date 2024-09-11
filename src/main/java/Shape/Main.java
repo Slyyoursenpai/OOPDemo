@@ -19,6 +19,7 @@ public class Main {
         printShapeDetails(circle);
         printShapeDetails(rectangle);
 
+        ////testing setters
         rectangle.setHeight(2);
         printShapeDetails(rectangle);
 
