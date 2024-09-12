@@ -25,8 +25,6 @@ public class Main {
 
         System.out.println("Test Commit 2");
         System.out.println("Test Commit 5");
-        System.out.println("Test Commit 6");
-
 
 
     }
