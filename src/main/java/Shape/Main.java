@@ -20,9 +20,7 @@ public class Main {
         printShapeDetails(rectangle);
 
         rectangle.setHeight(2);
-        rectangle.setWidth(2);
         printShapeDetails(rectangle);
 
-        System.out.println("Commit Test");
     }
 }
